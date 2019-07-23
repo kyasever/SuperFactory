@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mine : MonoBehaviour {
+public class Mine : KelObject {
     public bool isUsing = false;
     public int mineCount = 10000;
     public List<Robot> waitList = new List<Robot>();

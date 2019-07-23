@@ -10,13 +10,11 @@ using System.Collections.Generic;
  * 移动到矿点 - 采矿 - 移动到箱子 - 移动到矿点 - - - 
  * 移动路径搜寻器 己方点距离最近的车站的位置 
  * 移动到矿点的细化流程 移动到车站后被车站获取控制权限.车站将权限交给火车.火车将权限交给机器人,机器人移动到矿点.
- * 管道移动方式
- * 
+ * 管道移动方式 
  * 备注 要将所有的移动到某点全换成dotween来移动
 */
 public class Robot : MonoBehaviour
 {
-
     public float moveSpeed = 10f;
 
     //这个要重写了. 换成队列式操作
